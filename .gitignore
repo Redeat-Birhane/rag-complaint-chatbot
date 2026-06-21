@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.env
+
+# Data and vector store (large/regeneratable - keep folder structure via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+vector_store/*
+!vector_store/.gitkeep
+data/filtered_complaints.csv
+*.parquet
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# Testing
+.pytest_cache/
+.coverage
